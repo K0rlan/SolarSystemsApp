@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JavaScript-modules-diagram</ID>
+  <OriginalElement>/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog</OriginalElement>
+  <nodes>
+    <node x="102.0" y="471.0">/Users/koko/Documents/IITU/Angular/Koko/src/app/model/News.ts#News#0;</node>
+    <node x="2.0" y="295.0">/Users/koko/Documents/IITU/Angular/Koko/src/app/model/User.ts#User#30;</node>
+    <node x="277.0" y="517.0">/Users/koko/Documents/IITU/Angular/Koko/src/app/services/auth.service.ts#AuthService#373;</node>
+    <node x="479.0" y="364.0">/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.spec.ts#CatalogComponent#77;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.spec.ts#ComponentFixture#9;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.spec.ts#TestBed#27;</node>
+    <node x="177.0" y="192.0">/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#AuthService#264;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#CatalogComponent#314;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#Component#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#DoCheck#19;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#LoggingService#123;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#News#186;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#NewsService#66;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#OnInit#28;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#User#225;</node>
+    <node x="469.0" y="107.0">Component;/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/core.d.ts#DoCheck#68522;/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/core.d.ts#OnInit#159191;</node>
+    <node x="231.0" y="0.0">/Users/koko/Documents/IITU/Angular/Koko/src/app/services/logging.service.ts#LoggingService#43;</node>
+    <node x="0.0" y="95.0">/Users/koko/Documents/IITU/Angular/Koko/src/app/services/news.service.ts#NewsService#211;</node>
+    <node x="686.0" y="269.0">TestBed;</node>
+    <node x="504.0" y="612.0">/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/testing/testing.d.ts#ComponentFixture#1419;</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.spec.ts#CatalogComponent#77;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.spec.ts#ComponentFixture#9;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.spec.ts#TestBed#27;" target="TestBed;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#AuthService#264;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#CatalogComponent#314;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#Component#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#DoCheck#19;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#LoggingService#123;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#News#186;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#NewsService#66;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#OnInit#28;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#User#225;" target="/Users/koko/Documents/IITU/Angular/Koko/src/app/services/logging.service.ts#LoggingService#43;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#AuthService#264;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#CatalogComponent#314;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#Component#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#DoCheck#19;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#LoggingService#123;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#News#186;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#NewsService#66;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#OnInit#28;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#User#225;" target="/Users/koko/Documents/IITU/Angular/Koko/src/app/model/News.ts#News#0;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#AuthService#264;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#CatalogComponent#314;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#Component#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#DoCheck#19;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#LoggingService#123;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#News#186;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#NewsService#66;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#OnInit#28;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#User#225;" target="/Users/koko/Documents/IITU/Angular/Koko/src/app/services/news.service.ts#NewsService#211;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#AuthService#264;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#CatalogComponent#314;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#Component#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#DoCheck#19;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#LoggingService#123;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#News#186;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#NewsService#66;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#OnInit#28;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#User#225;" target="/Users/koko/Documents/IITU/Angular/Koko/src/app/model/User.ts#User#30;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#AuthService#264;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#CatalogComponent#314;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#Component#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#DoCheck#19;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#LoggingService#123;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#News#186;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#NewsService#66;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#OnInit#28;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#User#225;" target="/Users/koko/Documents/IITU/Angular/Koko/src/app/services/auth.service.ts#AuthService#373;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.spec.ts#CatalogComponent#77;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.spec.ts#ComponentFixture#9;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.spec.ts#TestBed#27;" target="/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/testing/testing.d.ts#ComponentFixture#1419;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#AuthService#264;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#CatalogComponent#314;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#Component#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#DoCheck#19;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#LoggingService#123;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#News#186;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#NewsService#66;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#OnInit#28;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#User#225;" target="Component;/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/core.d.ts#DoCheck#68522;/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/core.d.ts#OnInit#159191;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.spec.ts#CatalogComponent#77;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.spec.ts#ComponentFixture#9;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.spec.ts#TestBed#27;" target="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#AuthService#264;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#CatalogComponent#314;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#Component#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#DoCheck#19;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#LoggingService#123;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#News#186;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#NewsService#66;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#OnInit#28;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/catalog/catalog.component.ts#User#225;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="1.0" x="457.0" y="333.0" />
+  <SelectedNodes>
+    <node>/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/testing/testing.d.ts#ComponentFixture#1419;</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>All</Category>
+  </Categories>
+  <VISIBILITY>Details</VISIBILITY>
+</Diagram>
+

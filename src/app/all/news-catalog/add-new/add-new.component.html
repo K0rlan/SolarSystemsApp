@@ -1,0 +1,88 @@
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Add news</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form class="mb-5 mx-md-5" [formGroup]="orderForm" (ngSubmit)="save()">
+
+      <div class="row">
+        <div class="col-md-12 mb-4">
+
+          <!-- Name -->
+          <input [class.is-invalid]="orderForm.get('name').invalid && orderForm.get('name').touched"
+                 type="name" class="form-control" formControlName="name" placeholder="Name"/>
+          <div *ngIf="(name.invalid && name.touched) || name.dirty">
+            <small *ngIf="name.errors?.required" class="text-danger">Name is required</small>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mb-4">
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon3">https://img/.png</span>
+            </div>
+            <input type="text" [class.is-invalid]="orderForm.get('image').invalid && orderForm.get('image').touched"
+                   required class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="Image URL"
+                   name="image" formControlName="image">
+          </div>
+          <div *ngIf="(image.invalid && image.touched) || image.dirty">
+            <small *ngIf="image.errors?.required" class="text-danger">Image is required</small>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 mb-4">
+          <select class="browser-default custom-select" name="category"
+                  [class.is-invalid]="orderForm.get('category').invalid && orderForm.get('category').touched"
+                  formControlName="category">
+            <option value="1" selected>Politics</option>
+            <option value="2">Science</option>
+            <option value="3">Sport</option>
+          </select>
+          <div *ngIf="(category.invalid && category.touched) || image.dirty">
+            <small *ngIf="category.errors?.required" class="text-danger">Category is required</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="form-group mb-4">
+            <textarea class="form-control rounded" id="message" rows="3" placeholder="Information"
+                      name="information" formControlName="information"
+                      [class.is-invalid]="orderForm.get('information').invalid &&
+                      orderForm.get('information').touched"></textarea>
+            <div *ngIf="(information.invalid && information.touched) || information.dirty">
+              <small *ngIf="information.errors?.required" class="text-danger">Information is required</small>
+            </div>
+
+          </div>
+
+          <div class="text-center">
+            <button type="submit" class="btn btn-elegant" [disabled]="!orderForm.valid" (click)="order()">Submit
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    </form>
+  </div>
+</ng-template>
+<div class="container mt-5">
+  <div class="row form-inline d-flex justify-content-center">
+    <button type="button" class="btn btn-rounded" [hidden]="isHiden()" (click)="open(content)" style="width: 500px;
+        margin-bottom: 50px; position: center;">Add News <i class="fas fa-angle-right right"></i>
+    </button>
+  </div>
+</div>
+
+

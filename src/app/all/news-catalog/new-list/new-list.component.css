@@ -1,0 +1,33 @@
+
+.like-button {
+  /*background:transparent url("like.png") no-repeat 50% 50%;*/
+  height: 20px;
+  width: 20px;
+  border: none;
+  background-size: cover;
+  margin-right: 5px;
+}
+
+.news {
+  background-color: #70747f;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+
+.row {
+  margin-left: 40px;
+  margin-right: 7px;
+  margin-top: 20px;
+}
+
+.card {
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

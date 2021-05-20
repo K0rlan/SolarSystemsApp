@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JavaScript-modules-diagram</ID>
+  <OriginalElement>/Users/koko/Documents/IITU/Angular/Koko/src/app/error</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">Component;/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/core.d.ts#OnInit#159191;</node>
+    <node x="299.0" y="210.0">/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.spec.ts#ComponentFixture#9;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.spec.ts#ErrorComponent#77;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.spec.ts#TestBed#27;</node>
+    <node x="245.0" y="11.0">/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.ts#Component#9;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.ts#ErrorComponent#52;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.ts#OnInit#20;</node>
+    <node x="513.0" y="108.0">TestBed;</node>
+    <node x="233.0" y="432.0">/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/testing/testing.d.ts#ComponentFixture#1419;</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.spec.ts#ComponentFixture#9;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.spec.ts#ErrorComponent#77;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.spec.ts#TestBed#27;" target="/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.ts#Component#9;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.ts#ErrorComponent#52;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.ts#OnInit#20;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.ts#Component#9;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.ts#ErrorComponent#52;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.ts#OnInit#20;" target="Component;/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/core.d.ts#OnInit#159191;">
+      <point x="-0.4331480818242106" y="4.98120294097842" />
+      <point x="-0.43314808182418574" y="4.98120294097842" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.spec.ts#ComponentFixture#9;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.spec.ts#ErrorComponent#77;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.spec.ts#TestBed#27;" target="TestBed;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.spec.ts#ComponentFixture#9;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.spec.ts#ErrorComponent#77;/Users/koko/Documents/IITU/Angular/Koko/src/app/error/error.component.spec.ts#TestBed#27;" target="/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/testing/testing.d.ts#ComponentFixture#1419;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="1.0" x="370.5" y="243.0" />
+  <SelectedNodes>
+    <node>/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/testing/testing.d.ts#ComponentFixture#1419;</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>All</Category>
+  </Categories>
+  <VISIBILITY>Details</VISIBILITY>
+</Diagram>
+

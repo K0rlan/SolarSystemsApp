@@ -1,0 +1,229 @@
+<div class="container py-5 z-depth-1" style="margin-top: 90px; margin-bottom: 80px">
+
+
+  <!--Section: Content-->
+  <section class="text-center">
+
+    <!-- Section heading -->
+    <h3 class="font-weight-bold mb-2">{{news.category}}</h3>
+    <hr>
+
+    <div class="row mt-5">
+      <div class="col-lg-6">
+
+        <!--Carousel Wrapper-->
+        <div id="carousel-thumb1" class="carousel slide carousel-fade carousel-thumbnails mb-5 pb-4"
+             data-ride="carousel">
+
+          <!--Slides-->
+          <div class="carousel-inner text-center text-md-left" role="listbox">
+            <div class="carousel-item active pictures">
+              <img src="{{news.image}}"
+                   alt="First slide" class="img-fluid mainPictures z-depth-2">
+            </div>
+            <div class="carousel-item pictures">
+              <img src="{{news.image2}}"
+                   alt="Second slide" class="img-fluid mainPictures z-depth-2">
+            </div>
+            <div class="carousel-item pictures">
+              <img src="{{news.image3}}"
+                   alt="Third slide" class="img-fluid mainPictures z-depth-2">
+            </div>
+          </div>
+          <!--/.Slides-->
+
+          <!--Thumbnails-->
+          <a class="carousel-control-prev" href="#carousel-thumb1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon grey"></span>
+            <span class="sr-only"></span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-thumb1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon grey"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Thumbnails-->
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-5 text-center text-md-left">
+
+        <h2
+          class="h2-responsive text-center text-md-left product-name font-weight-bold dark-grey-text mb-1 ml-xl-0 ml-4">
+          {{news.name}}
+          <a class="btn-floating btn-action ml-auto mr-4 " (click)="changeFav()"
+             style="text-align: right; float: right;">
+            <i class="fas fa-star" *ngIf="getFavStatus()"></i><i class="far fa-star" *ngIf="!getFavStatus()"></i></a>
+        </h2>
+
+        <h3 class="h3-responsive text-center text-md-right mb-5 ml-xl-0 ml-4">
+          <span class="grey-text">
+          </span>
+        </h3>
+
+        <div class="font-weight-normal">
+          <p class="ml-xl-0 ml-4">{{news.information}}</p>
+        </div>
+        <h3 class="h3-responsive text-center text-md-left mb-5 ml-xl-0 ml-4">
+          <span class="grey-text">
+            <small>
+              <a class="btn-floating btn-action ml-auto mr-4 " (click)="changeLike()" style="text-align: left;
+    float: left;">
+              {{news.likes}}
+                <i class="fas fa-heart" *ngIf="getUserLiked()"></i><i class="far fa-heart" *ngIf="!getUserLiked()"></i>
+                </a>
+            </small>
+          </span>
+        </h3>
+      </div>
+    </div>
+    <div class="text-center text-md-left" style="margin-left: 30px">
+      <h2
+        class="h2-responsive text-center text-md-left product-name font-weight-bold dark-grey-text mb-1 ml-xl-0 ml-4">
+        Comments:
+      </h2>
+      <br>
+      <div class="text-center text-md-left" *ngFor="let news of news.comments">
+        <h4
+          class="h4-responsive text-center text-md-left product-name dark-grey-text mb-1 ml-xl-0 ml-4">
+          {{news.userName}}
+        </h4>
+        <p class=" text-center grey-text text-md-left mb-4 ml-xl-0 ml-4"> {{news.date}} </p>
+        <p class="font-weight-normal ml-xl-0 ml-4">{{news.commentText}}</p>
+      </div>
+      <div class="row form-inline d-flex justify-content-md-start">
+        <button type="button" class="btn btn-rounded" [hidden]="hideBTN" (click)="changeCommentVissiblity()" style="width: 200px;
+        margin-bottom: 30px; position: center;">Add Comment <i class="fas fa-angle-right right"></i>
+        </button>
+      </div>
+      <div [hidden]="hideComment">
+      <textarea class="form-control rounded col-md-4 mb-4" id="message" rows="3" placeholder="Your comment..."
+                name="information" #commentText
+      ></textarea>
+      <button type="button" class="btn btn-rounded" (click)="addComment(commentText.value)" style="width: 200px;
+       position: center;">Send <i class="fas fa-angle-right right"></i>
+      </button>
+    </div>
+    </div>
+  </section>
+  <!--Section: Content-->
+
+  <p class="grey-text mt-5 pb-2 text-uppercase" style="margin-left: 20px">You may like also</p>
+
+  <div class="container">
+
+
+    <!--Section: Content-->
+    <section>
+
+      <style>
+        .news-tile .card-title {
+          position: absolute;
+          bottom: 15px;
+          left: 40px;
+        }
+
+        .rgba-stylish-strong {
+          background-color: rgba(62, 69, 81, .5);
+        }
+      </style>
+
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <!--News tile -->
+          <div class="news-tile view zoom z-depth-1 rounded mb-4">
+
+            <a href="#!" class="text-white">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(35).jpg"
+                   class="img-fluid z-depth-1 rounded" alt="sample image">
+              <div class="mask flex-center rgba-black-light">
+                <div class="text-white text-center py-lg-5 py-0 my-0">
+                  <div>
+                    <h4 class="card-title font-weight-bold pt-2">
+                      <strong>This is news title</strong>
+                    </h4>
+
+                    <p class="mx-5 clearfix d-none d-md-block"></p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <!--News tile -->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--News tile -->
+          <div class="news-tile view zoom z-depth-1 rounded mb-4">
+
+            <a href="#!" class="text-white">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(36).jpg"
+                   class="img-fluid z-depth-1 rounded" alt="sample image">
+              <div class="mask flex-center rgba-black-light">
+                <div class="text-white text-center py-lg-5 py-0 my-0">
+                  <div>
+                    <h4 class="card-title font-weight-bold pt-2">
+                      <strong>This is news title</strong>
+                    </h4>
+
+                    <p class="mx-5 clearfix d-none d-md-block"></p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <!--News tile -->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--News tile -->
+          <div class="news-tile view zoom z-depth-1 rounded mb-4">
+
+            <a href="#!" class="text-white">
+              <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(37).jpg"
+                   class="img-fluid z-depth-1 rounded" alt="sample image">
+              <div class="mask flex-center rgba-black-light">
+                <div class="text-white text-center py-lg-5 py-0 my-0">
+                  <div>
+                    <h4 class="card-title font-weight-bold pt-2">
+                      <strong>This is news title</strong>
+                    </h4>
+
+                    <p class="mx-5 clearfix d-none d-md-block"></p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <!--News tile -->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </section>
+    <!--Section: Content-->
+
+
+  </div>
+
+
+</div>

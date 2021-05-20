@@ -1,0 +1,48 @@
+<!--Section: Content-->
+<section class="p-5  text-center"
+         style="background-size: cover; background: url('../../../../assets/main.jpg') no-repeat fixed center center; height: 810px">
+
+  <!-- Section heading -->
+  <h3 class="text-center font-weight-bold text-white text-uppercase pb-2 mb-4" style="margin-top: 100px">Sign in</h3>
+  <hr class="w-header my-4 white">
+  <!-- Section description -->
+  <h3 class="lead text-center text-white pt-2 mb-5">Welcome to BBC News!</h3>
+
+  <form class="mb-5 mx-md-5" [formGroup]="signInForm" (ngSubmit)="setStatus()">
+
+    <div class="col-md-4 mb-4" style="margin: auto;">
+
+      <!-- Name -->
+      <input [class.is-invalid] = "signInForm.get('email').invalid && signInForm.get('email').touched"
+             type="email" class="form-control" formControlName="email" placeholder="Email"/>
+      <div *ngIf="(email.invalid && email.touched) || email.dirty">
+        <small *ngIf="email.errors?.required" class="text-danger">Email is required</small>
+        <!--question mark(?) is a safe navigation operator-->
+        <small *ngIf="email.errors?.pattern" class="text-danger">Sorry, can't find your email</small>
+      </div>
+
+    </div>
+
+    <div class="col-md-4 mb-4" style="margin: auto;">
+
+      <!-- Subject -->
+      <input [class.is-invalid] = "signInForm.get('password').invalid && signInForm.get('password').touched"
+             type="password" class="form-control" formControlName="password" placeholder="Password"/>
+      <div *ngIf="(password.invalid && password.touched) || password.dirty">
+        <small *ngIf="password.errors?.required" class="text-danger">Password is required</small>
+        <!--            <small *ngIf="password.errors?.pattern" class="text-danger">Wrong password</small>-->
+      </div>
+
+    </div>
+    <div class="text-center text-white">
+      <p>Not a member?
+        <a routerLink="/register">Register</a>
+      </p>
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="btn btn-light"  [disabled]="!signInForm.valid">Sign in</button>
+    </div>
+  </form>
+
+</section>

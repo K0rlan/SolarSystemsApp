@@ -1,0 +1,15 @@
+<script src="new-list.component.ts"></script>
+<div class="row">
+  <!-- Card -->
+  <div class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal" routerLink="categories/{{list.categoryId}}/detail/{{list.id}}">
+    <!-- Card image -->
+    <img class="card-img-top mainPictures" src="{{list.image}}" alt="Card image cap">
+
+    <!-- Card content -->
+    <div class="card-body">
+      <h5 class="my-3">{{list.name | titlecase}}</h5>
+      <p class="card-text text-uppercase mb-3">{{list.information | summary}}</p>
+    </div>
+  </div>
+  <!-- Card -->
+</div>

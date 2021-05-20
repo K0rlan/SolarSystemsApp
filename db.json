@@ -1,0 +1,588 @@
+{
+  "userForm": [
+    {
+      "name": "koko",
+      "email": "koko@m.ru",
+      "role": "admin",
+      "password": "1234Qwer",
+      "favList": [
+        {
+          "id": 14,
+          "categoryId": 3,
+          "category": "Sport",
+          "likes": 0,
+          "liked": [
+            {
+              "likedUser": "",
+              "likeStatus": false
+            }
+          ],
+          "comments": [
+            {
+              "userName": "",
+              "userEmail": "",
+              "date": "",
+              "commentText": ""
+            }
+          ],
+          "name": "Eden Hazard in Real Madrid",
+          "image": "assets/3.jpg",
+          "image2": "assets/2.jpg",
+          "image3": "assets/4.jpg",
+          "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+        },
+        {
+          "id": 1,
+          "categoryId": 1,
+          "likes": 2,
+          "liked": [
+            {
+              "likedUser": "",
+              "likeStatus": false
+            },
+            {
+              "likedUser": "koko@m.ru",
+              "likeStatus": true
+            },
+            {
+              "likedUser": "k@m.ru",
+              "likeStatus": true
+            }
+          ],
+          "comments": [
+            {
+              "userName": "Korlan",
+              "userEmail": "k@m.ru",
+              "commentText": ",n,",
+              "date": "16.4.2021 21:17"
+            }
+          ],
+          "category": "Politics",
+          "name": "Juventus Signer De Ligt",
+          "image": "assets/pol1.jpg",
+          "image2": "assets/pol2.jpg",
+          "image3": "assets/pol3.jpg",
+          "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+        },
+        {
+          "id": 2,
+          "categoryId": 1,
+          "category": "Politics",
+          "likes": 1,
+          "liked": [
+            {
+              "likedUser": "koko@m.ru",
+              "likeStatus": true
+            }
+          ],
+          "comments": [
+            {
+              "userName": "",
+              "userEmail": "",
+              "date": "",
+              "commentText": ""
+            }
+          ],
+          "name": "Eden Hazard in Real Madrid",
+          "image": "assets/pol3.jpg",
+          "image2": "assets/pol1.jpg",
+          "image3": "assets/pol2.jpg",
+          "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Korlan",
+      "role": "user",
+      "email": "k@m.ru",
+      "password": "1234Qwer",
+      "favList": [
+        {
+          "id": 3,
+          "categoryId": 1,
+          "category": "Politics",
+          "likes": 1,
+          "liked": [
+            {
+              "likedUser": "",
+              "likeStatus": false
+            },
+            {
+              "likedUser": "k@m.ru",
+              "likeStatus": true
+            }
+          ],
+          "comments": [
+            {
+              "userName": "",
+              "userEmail": "",
+              "date": "",
+              "commentText": ""
+            }
+          ],
+          "name": "Griezman joined to Barca",
+          "image": "assets/pol4.jpg",
+          "image2": "assets/pol2.jpg",
+          "image3": "assets/pol1.jpg",
+          "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "likes": 2,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        },
+        {
+          "likedUser": "koko@m.ru",
+          "likeStatus": true
+        },
+        {
+          "likedUser": "k@m.ru",
+          "likeStatus": true
+        }
+      ],
+      "comments": [
+        {
+          "userName": "Korlan",
+          "userEmail": "k@m.ru",
+          "commentText": ",n,",
+          "date": "16.4.2021 21:17"
+        }
+      ],
+      "category": "Politics",
+      "name": "Juventus Signer De Ligt",
+      "image": "assets/pol1.jpg",
+      "image2": "assets/pol2.jpg",
+      "image3": "assets/pol3.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "category": "Politics",
+      "likes": 0,
+      "liked": [],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Eden Hazard in Real Madrid",
+      "image": "assets/pol3.jpg",
+      "image2": "assets/pol1.jpg",
+      "image3": "assets/pol2.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "category": "Politics",
+      "likes": 1,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        },
+        {
+          "likedUser": "k@m.ru",
+          "likeStatus": true
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Griezman joined to Barca",
+      "image": "assets/pol4.jpg",
+      "image2": "assets/pol2.jpg",
+      "image3": "assets/pol1.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "category": "Politics",
+      "likes": 0,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Juventus Signer De Ligt",
+      "image": "assets/pol5.jpg",
+      "image2": "https://opt-1031816.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/1ba/750_400_1/1baf9fffdacdf759cdcd257cac376e2c.jpg?152824228799443",
+      "image3": "https://i.pinimg.com/originals/ab/b6/38/abb638f484c42120705d98a6e24541b4.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "category": "Politics",
+      "likes": 0,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Juventus Signer De Ligt",
+      "image": "assets/pol6.jpg",
+      "image2": "assets/pol2.jpg",
+      "image3": "assets/pol3.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "category": "Politics",
+      "likes": 0,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Juventus Signer De Ligt",
+      "image": "assets/pol2.jpg",
+      "image2": "https://opt-1031816.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/1ba/750_400_1/1baf9fffdacdf759cdcd257cac376e2c.jpg?152824228799443",
+      "image3": "https://i.pinimg.com/originals/ab/b6/38/abb638f484c42120705d98a6e24541b4.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 7,
+      "categoryId": 2,
+      "category": "Science",
+      "likes": 0,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Juventus Signer De Ligt",
+      "image": "assets/sc2.jpg",
+      "image2": "assets/sc4.jpg",
+      "image3": "assets/sc3.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "category": "Science",
+      "likes": 0,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Eden Hazard in Real Madrid",
+      "image": "assets/sc3.jpg",
+      "image2": "assets/sc2.jpg",
+      "image3": "assets/sc4.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 9,
+      "categoryId": 2,
+      "category": "Science",
+      "likes": 0,
+      "liked": [],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Griezman joined to Barca",
+      "image": "assets/sc4.jpg",
+      "image2": "assets/sc5.jpg",
+      "image3": "assets/sc3.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 10,
+      "categoryId": 2,
+      "category": "Science",
+      "likes": 0,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Juventus Signer De Ligt",
+      "image": "assets/sc5.jpg",
+      "image2": "assets/sc2.jpg",
+      "image3": "assets/sc3.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 11,
+      "categoryId": 2,
+      "category": "Science",
+      "likes": 0,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Juventus Signer De Ligt",
+      "image": "assets/sc6.jpg",
+      "image2": "assets/sc2.jpg",
+      "image3": "assets/sc1.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 12,
+      "categoryId": 2,
+      "category": "Science",
+      "likes": 0,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Juventus Signer De Ligt",
+      "image": "assets/sc1.jpg",
+      "image2": "https://opt-1031816.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/1ba/750_400_1/1baf9fffdacdf759cdcd257cac376e2c.jpg?152824228799443",
+      "image3": "https://i.pinimg.com/originals/ab/b6/38/abb638f484c42120705d98a6e24541b4.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 13,
+      "categoryId": 3,
+      "category": "Sport",
+      "likes": 1,
+      "liked": [
+        {
+          "likedUser": "koko@m.ru",
+          "likeStatus": true
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Juventus Signer De Ligt",
+      "image": "assets/2.jpg",
+      "image2": "assets/4.jpg",
+      "image3": "assets/3.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 14,
+      "categoryId": 3,
+      "category": "Sport",
+      "likes": 0,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Eden Hazard in Real Madrid",
+      "image": "assets/3.jpg",
+      "image2": "assets/2.jpg",
+      "image3": "assets/4.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 15,
+      "categoryId": 3,
+      "category": "Sport",
+      "likes": 0,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Griezman joined to Barca",
+      "image": "assets/4.jpg",
+      "image2": "assets/2.jpg",
+      "image3": "assets/3.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 16,
+      "categoryId": 3,
+      "category": "Sport",
+      "likes": 0,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Juventus Signer De Ligt",
+      "image": "assets/5.jpeg",
+      "image2": "assets/2.jpg",
+      "image3": "assets/1.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 17,
+      "categoryId": 3,
+      "category": "Sport",
+      "likes": 0,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Juventus Signer De Ligt",
+      "image": "assets/6.jpg",
+      "image2": "assets/2.jpg",
+      "image3": "assets/3.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    },
+    {
+      "id": 18,
+      "categoryId": 3,
+      "category": "Sport",
+      "likes": 0,
+      "liked": [
+        {
+          "likedUser": "",
+          "likeStatus": false
+        }
+      ],
+      "comments": [
+        {
+          "userName": "",
+          "userEmail": "",
+          "date": "",
+          "commentText": ""
+        }
+      ],
+      "name": "Juventus Signer De Ligt",
+      "image": "assets/7.jpg",
+      "image2": "assets/2.jpg",
+      "image3": "assets/3.jpg",
+      "information": "Modern British Shorthair cats are well-built animals of medium to large size with a powerful body, stocky legs and strong rounded paws. The weight of an adult animal ranges from 3 to 7 kg, cats are larger than cats. The round head is crowned with wide - set ears of medium size. A muzzle with full cheeks and large round wide eyes will not leave anyone indifferent. The coat of these cats is short, dense, shiny, with a well-developed undercoat. It doesn't fit the body, which makes it look plush. The most popular color among fans of the breed is blue. However, thanks to breeding work, today the breed has about 200 different colors: plain (black, blue, chocolate, purple, red, cream, white), tortoiseshell, typed (smoky, shaded, chinchilla), tabby (marbled, mackerel, spotted), color-point, bicolor. As a rule, the British have bright orange eyes, but depending on the color it can be blue, blue, green."
+    }
+  ]
+}

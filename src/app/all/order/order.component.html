@@ -1,0 +1,85 @@
+<!--<div class="container z-depth-1 px-0" style="margin-bottom: 100px; margin-top: 100px">-->
+
+  <!--Section: Content-->
+  <section class="p-5 text-center"
+           style="background-size: cover; background: url('assets/main.jpg') no-repeat fixed center center; height: 810px">
+
+    <!-- Section heading -->
+    <h3 class="text-center font-weight-bold text-white text-uppercase pb-2 mb-4" style="margin-top: 100px">Add new news</h3>
+    <hr class="w-header my-4 white">
+    <!-- Section description -->
+    <h3 class="lead text-center text-white pt-2 mb-5">Write you own truth!</h3>
+
+    <form class="mb-5 mx-md-5" [formGroup]="orderForm" (ngSubmit)="save()">
+
+      <div class="row">
+        <div class="col-md-4 mb-4">
+
+          <!-- Name -->
+          <input [class.is-invalid] = "orderForm.get('name').invalid && orderForm.get('name').touched"
+                 type="name" class="form-control" formControlName="name" placeholder="Name"/>
+          <div *ngIf="(name.invalid && name.touched) || name.dirty">
+            <small *ngIf="name.errors?.required" class="text-danger">Name is required</small>
+          </div>
+
+        </div>
+        <div class="col-md-8 mb-4">
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon3">https://img/.png</span>
+            </div>
+            <input type="text" [class.is-invalid] = "orderForm.get('image').invalid && orderForm.get('image').touched"
+                   required class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="Image URL"
+            name="image" formControlName="image">
+          </div>
+          <div *ngIf="(image.invalid && image.touched) || image.dirty">
+            <small *ngIf="image.errors?.required" class="text-danger">Image is required</small>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 mb-4">
+          <select class="browser-default custom-select"
+                  [class.is-invalid] = "orderForm.get('category').invalid && orderForm.get('category').touched"
+                  formControlName="category">
+            <option value="1" selected>Politics</option>
+            <option value="2">Science</option>
+            <option value="3">Sport</option>
+          </select>
+          <div *ngIf="(category.invalid && category.touched) || image.dirty">
+            <small *ngIf="category.errors?.required" class="text-danger">Category is required</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="form-group mb-4">
+            <textarea class="form-control rounded" id="message" rows="3" placeholder="Information"
+                      name="information" formControlName="information"
+                      [class.is-invalid] = "orderForm.get('information').invalid &&
+                      orderForm.get('information').touched"></textarea>
+            <div *ngIf="(information.invalid && information.touched) || information.dirty">
+              <small *ngIf="information.errors?.required" class="text-danger">Information is required</small>
+            </div>
+
+          </div>
+
+          <div class="text-center">
+            <button type="submit" class="btn btn-elegant" [disabled]="!orderForm.valid" (click)="order()">Submit</button>
+          </div>
+
+        </div>
+      </div>
+
+    </form>
+
+  </section>
+  <!--Section: Content-->
+
+
+<!--</div>-->

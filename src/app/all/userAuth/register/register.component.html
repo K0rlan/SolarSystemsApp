@@ -1,0 +1,70 @@
+
+<!--Section: Content-->
+<section class="p-5  text-center"
+         style="background-size: cover; background: url('../../../../assets/main.jpg') no-repeat fixed center center; height: 810px">
+
+  <!-- Section heading -->
+  <h3 class="text-center font-weight-bold text-white text-uppercase pb-2 mb-4" style="margin-top: 100px">Sign up</h3>
+  <hr class="w-header my-4 white">
+  <!-- Section description -->
+  <h3 class="lead text-center text-white pt-2 mb-5">Welcome to BBC News!</h3>
+
+  <form class="mb-5 mx-md-5" [formGroup]="signUpForm" (ngSubmit)="save()">
+
+    <div class="col-md-4 mb-4" style="margin: auto;">
+
+      <!-- Name -->
+      <input [class.is-invalid] = "signUpForm.get('name').invalid && signUpForm.get('name').touched"
+             type="name" class="form-control" formControlName="name" placeholder="Name"/>
+      <div *ngIf="(name.invalid && name.touched) || name.dirty">
+        <small *ngIf="name.errors?.required" class="text-danger">Name is required</small>
+      </div>
+
+    </div>
+    <div class="col-md-4 mb-4" style="margin: auto;">
+
+      <!-- Email -->
+      <input [class.is-invalid] = "signUpForm.get('email').invalid && signUpForm.get('email').touched"
+             type="email" class="form-control" formControlName="email" placeholder="Email"/>
+      <div *ngIf="(email.invalid && email.touched) || email.dirty">
+        <small *ngIf="email.errors?.required" class="text-danger">Email is required</small>
+        <!--question mark(?) is a safe navigation operator-->
+        <small *ngIf="email.errors?.pattern" class="text-danger">Please provide a valid email address</small>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4" style="margin: auto;">
+
+      <!-- Subject -->
+      <input [class.is-invalid] = "signUpForm.get('password').invalid && signUpForm.get('password').touched"
+             type="password" class="form-control" formControlName="password" placeholder="Password"/>
+      <div *ngIf="(password.invalid && password.touched) || password.dirty">
+        <small *ngIf="password.errors?.required" class="text-danger">Password is required</small>
+        <!--question mark(?) is a safe navigation operator-->
+        <small *ngIf="password.errors?.pattern" class="text-danger">
+          Must be at least 8 characters<br>
+          Must contain at least 1 letter<br>
+          Must contain at least 1 number</small>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4" style="margin: auto;">
+
+      <!-- Subject -->
+      <input type="password" id="password1" class="form-control" placeholder="Repeat password"
+             name="repeatPassword" formControlName="repeatPassword" pattern="{{password.value}}">
+      <div *ngIf=" repeatPassword.invalid && (repeatPassword.touched)">
+        <small *ngIf="repeatPassword.errors?.required" class="text-danger">Password is required</small>
+        <small *ngIf="repeatPassword.errors?.pattern" class="text-danger">
+          Password & Confirm Password does not match.</small>
+      </div>
+
+    </div>
+
+    <div class="text-center">
+      <button [disabled]="!signUpForm.valid" class="btn btn-light" type="submit" (click)="create()">Sign up</button>
+    </div>
+  </form>
+
+</section>
+<!--Section: Content-->

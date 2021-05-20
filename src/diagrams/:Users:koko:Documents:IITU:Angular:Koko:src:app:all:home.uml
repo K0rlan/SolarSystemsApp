@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JavaScript-modules-diagram</ID>
+  <OriginalElement>/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home</OriginalElement>
+  <nodes>
+    <node x="0.0" y="167.0">Component;/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/core.d.ts#OnInit#159191;</node>
+    <node x="490.0" y="200.0">/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.spec.ts#ComponentFixture#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.spec.ts#HomeComponent#74;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.spec.ts#TestBed#26;</node>
+    <node x="245.0" y="181.0">/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.ts#Component#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.ts#HomeComponent#50;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.ts#OnInit#19;</node>
+    <node x="498.0" y="0.0">TestBed;</node>
+    <node x="441.0" y="450.0">/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/testing/testing.d.ts#ComponentFixture#1419;</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.spec.ts#ComponentFixture#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.spec.ts#HomeComponent#74;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.spec.ts#TestBed#26;" target="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.ts#Component#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.ts#HomeComponent#50;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.ts#OnInit#19;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.spec.ts#ComponentFixture#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.spec.ts#HomeComponent#74;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.spec.ts#TestBed#26;" target="TestBed;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.ts#Component#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.ts#HomeComponent#50;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.ts#OnInit#19;" target="Component;/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/core.d.ts#OnInit#159191;">
+      <point x="-0.5075684400669722" y="4.974170712656331" />
+      <point x="-0.5075684400669616" y="4.974170712656331" />
+    </edge>
+    <edge source="/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.spec.ts#ComponentFixture#8;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.spec.ts#HomeComponent#74;/Users/koko/Documents/IITU/Angular/Koko/src/app/all/home/home.component.spec.ts#TestBed#26;" target="/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/testing/testing.d.ts#ComponentFixture#1419;">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="1.0" x="366.5" y="252.0" />
+  <SelectedNodes>
+    <node>/Users/koko/Documents/IITU/Angular/Koko/node_modules/@angular/core/testing/testing.d.ts#ComponentFixture#1419;</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>All</Category>
+  </Categories>
+  <VISIBILITY>Details</VISIBILITY>
+</Diagram>
+

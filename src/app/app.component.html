@@ -1,0 +1,8 @@
+<app-nav-auth *ngIf="isLoggedIn(); else elseBlock"></app-nav-auth>
+<ng-template #elseBlock>
+  <app-nav></app-nav>
+</ng-template>
+
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+

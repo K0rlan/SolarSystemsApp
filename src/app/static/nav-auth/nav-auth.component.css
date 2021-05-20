@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #55081a;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.nav-link:visited {
+  color: #ffffff !important;
+}
+
+.nav-link:active {
+  color: #ffffff !important;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+.a {
+  color: #ffffff !important;
+}

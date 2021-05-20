@@ -1,0 +1,14 @@
+
+.intro-2 {
+  background: url("src/assets/main.jpg")no-repeat center center;
+  background-size: cover;
+}
+
+.all {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+}
+app-card-list {
+  padding: 20px;
+}

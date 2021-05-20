@@ -1,0 +1,39 @@
+<div class=" intro-2">
+</div>
+  <div  style="height: 50px">
+  </div>
+<div class="container mt-5">
+  <div class="row form-inline d-flex justify-content-center">
+    <div class="form-group col-10">
+      <input class="form-control col-12" type="text" placeholder="Search News"  name="item" [(ngModel)]="searchText">
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="row form-inline d-flex justify-content-center">
+      <button type="button" class="btn btn-rounded" routerLink="order" style="width: 500px;
+        margin-bottom: 50px;">Add News <i class="fas fa-angle-right right"></i>
+      </button>
+  </div>
+</div>
+<div class="tab-pane fade show in active" id="panel31" role="tabpanel">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let news of listOfNews">
+      <!-- Card -->
+      <div class="card hoverable mb-4" data-toggle="modal" data-target="#basicExampleModal" >
+        <!-- Card image -->
+        <img class="card-img-top mainPictures" src="{{news.image}}" alt="Card image cap">
+
+        <!-- Card content -->
+        <div class="card-body">
+          <h5 class="my-3">{{news.name | titlecase}}</h5>
+          <p class="card-text text-uppercase mb-3">{{news.information | summary}}</p>
+          <hr>
+          <a routerLink="categories/{{news.categoryId}}/detail/{{news.id}}" class="btn btn-primary">More Info</a>
+        </div>
+      </div>
+      <!-- Card -->
+    </div>
+  </div>
+</div>
